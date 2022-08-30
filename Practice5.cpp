@@ -3,12 +3,11 @@ using namespace std;
 
 int numOdds(int n);
 
-int Practice5() {
+void Practice5() {
 	int yourNumber;
 	cout << "Enter a positive integer" << endl;
 	cin >> yourNumber;
 	cout << "The number of odd numbers lower than your int is " << numOdds(yourNumber) << endl;
-	return 0;
 }
 
 int numOdds(int n) {
