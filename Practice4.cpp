@@ -3,6 +3,6 @@ using namespace std;
 
 int Math(int a, int b);
 
-int main() {
-	cout << Math(5, 7) << endl;
+void  Practice4(int a, int b) {
+	cout << Math(a, b) << endl;
 }
